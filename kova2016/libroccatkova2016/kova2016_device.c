@@ -21,10 +21,11 @@
 #include "roccat_control.h"
 #include "roccat_device_hidraw.h"
 
-static guint const device_ids[4] = {
+static guint const device_ids[5] = {
 		USB_DEVICE_ID_ROCCAT_KOVA2016_BLACK,
 		USB_DEVICE_ID_ROCCAT_KOVA2016_GRAY,
 		USB_DEVICE_ID_ROCCAT_KOVA2016_WHITE,
+		USB_DEVICE_ID_ROCCAT_KOVA_AIMO_WHITE,
 		0
 };
 

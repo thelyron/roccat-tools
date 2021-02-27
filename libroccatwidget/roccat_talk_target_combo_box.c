@@ -167,6 +167,10 @@ static void list_store_add_mice(GtkListStore *store) {
 			VALUE_COLUMN, USB_DEVICE_ID_ROCCAT_KOVA2016_WHITE,
 			-1);
 	gtk_roccat_list_store_append_with_values(store, NULL,
+			NAME_COLUMN, roccat_talk_device_get_text_static(USB_DEVICE_ID_ROCCAT_KOVA_AIMO_WHITE),
+			VALUE_COLUMN, USB_DEVICE_ID_ROCCAT_KOVA_AIMO_WHITE,
+			-1);
+	gtk_roccat_list_store_append_with_values(store, NULL,
 			NAME_COLUMN, roccat_talk_device_get_text_static(USB_DEVICE_ID_ROCCAT_NYTH_BLACK),
 			VALUE_COLUMN, USB_DEVICE_ID_ROCCAT_NYTH_BLACK,
 			-1);
